@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        .body1{
+            background-color: black;
+            padding: 100px;
+        }
+        .form{
+            border: 2px;
+            border-radius: 15px;
+            background:linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.726)), url(assets/FORM\ BANNER.png);
+            border-style: solid;
+            background-attachment: fixed;
+            background-size: cover;
+            padding: 100px;
+            background-position: center;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .label1 label{
+            color: white;
+            font-size: 20px;
+        }
+        .label2 label{
+            color: white;
+            font-size: 20px;
+        }
+        .button1 button{
+            background-color: white;
+            color: black;
+            border: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 15px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .button1 button:hover{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body class="body1">
+<form class="form">
+    <h style="font-size: 50px; color: white;">
+        Login Form
+    </h>
+    <br>
+    <br>
+    <br>
+    <div class="label1">
+    <label for="fname">
+        First Name :
+    </label>
+    <input type="text" id="fname" name="fname" placeholder="First-Name" style="background-color: white; font-family: 'Courier New', Courier, monospace; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; border: 0px; border-radius: 15px;">
+    </div>
+    <br>
+    <div class="label2">
+    <label for="lname">
+        Last Name :
+    </label>
+    <input type="text" id="lname" name="lname" placeholder="Last-Name" style="background-color: white;font-family: 'Courier New', Courier, monospace;; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; border: 0px; border-radius: 15px;">
+    </div>
+    <br>
+    <div class="label2">
+    <label for="tel">
+        Phone Num :
+    </label>
+    <input type="tel" id="tel" placeholder="Phone-number"  style="background-color: white; padding-left: 20px; padding-right: 20px; padding-top: 5px; font-family: 'Courier New', Courier, monospace;;padding-bottom: 5px; border: 0px; border-radius: 15px;">
+    </div>
+    <br>
+    <div class="label2">
+        <label for="message">
+            Message :
+        </label>
+        <input type="text-area" id="message" placeholder="Message" style="background-color: white; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; border: 0px;font-family: 'Courier New', Courier, monospace;; border-radius: 15px;">
+    </div>
+    <br>
+    <div class="button1">
+    <button>
+        Submit
+    </button>
+    </div>
+</form>    
+</body>
+</html>
